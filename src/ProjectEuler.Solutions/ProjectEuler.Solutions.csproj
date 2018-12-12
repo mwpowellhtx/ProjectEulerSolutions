@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>ProjectEuler.Solutions</Title>
+    <Product>ProjectEuler.Solutions</Product>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Author>Michael W. Powell</Author>
+    <Company>Michael W. Powell</Company>
+    <Copyright>Copyright © 2018</Copyright>
+    <Description>Project Euler Problem 31 Coin Sums</Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <InformationalVersion>1.0.0.0-interview001</InformationalVersion>
+    <PackageVersion>1.0.0.0-interview001</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.OrTools" Version="6.10.6025" />
+  </ItemGroup>
+
+</Project>
